@@ -156,6 +156,14 @@ h6 {
 .icon {
     margin: 9px;
   }
+
+  .icon:hover {
+  -ms-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
   
   #stack {
       height: 57px;
